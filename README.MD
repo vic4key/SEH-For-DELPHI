@@ -8,13 +8,8 @@ I used this SEH to avoid [BSOD](https://en.wikipedia.org/wiki/Blue_screen_of_dea
 ##### USAGE #####
 
 ```
-// for inclusion
 uses VICSEH;
-{$I VICDEH.pas}
 
-...
-
-// for using
 {$I VIC.TRY}
 // YOUR CODE HERE THAT WANT TO TRY CATCH EXCEPTION HERE
 {$I VIC.EXCEPT}
